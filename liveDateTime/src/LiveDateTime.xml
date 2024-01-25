@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="cgi.livedatetime.LiveDateTime" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Live Date Time</name>
+    <description>Show Live Date Time</description>
+    <icon>PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzhfMTMpIj4KPHBhdGggZD0iTTEyIDIyQzYuNDc3IDIyIDIgMTcuNTIzIDIgMTJDMiA2LjQ3NyA2LjQ3NyAyIDEyIDJDMTcuNTIzIDIgMjIgNi40NzcgMjIgMTJDMjIgMTcuNTIzIDE3LjUyMyAyMiAxMiAyMlpNMTMgMTJWN0gxMVYxNEgxN1YxMkgxM1oiIGZpbGw9IiMwMzA1M0QiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF84XzEzIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="dateFormat" type="string" required="false">
+                <caption>Format to parse Date into</caption>
+                <description>For example dd/MM/yyyy HH:MM:ss gives 08/01/2024 08:30:45; Use 'your text' to include strings for example HH'h'mm gives 08h30.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
